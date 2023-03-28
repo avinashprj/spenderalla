@@ -1,0 +1,24 @@
+.chart-container-doughnutXS {
+  position: relative;
+  width: 130px;
+}
+
+.doughnutXS {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.doughnutXS .money .expenses {
+  color: #214ff1;
+  text-align: right;
+}
+
+.doughnutXS .money .total {
+  color: #9ba5f8;
+}
+
+.doughnutXS .percentage {
+  color: #9ba5f8;
+  width: 3rem;
+}

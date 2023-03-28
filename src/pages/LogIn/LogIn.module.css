@@ -1,0 +1,58 @@
+.wrapper {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.selector {
+  display: flex;
+  padding-top: 1.5rem;
+  margin-bottom: 5vh;
+}
+
+.selector a {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: var(--heavenly);
+  width: 40%;
+}
+
+.form h4 {
+  color: var(--heavenly);
+}
+
+.form > label {
+  display: block;
+  padding-top: 3rem;
+}
+
+.forgotPassword,
+.forgotPassword:visited {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-align: right;
+  color: var(--heavenly);
+}
+
+.alternative {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.authSocial {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.8rem;
+}
+
+.authSocial button {
+  width: 50%;
+}
+
+.actve {
+  color: var(--heavenly);
+}

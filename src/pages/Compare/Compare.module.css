@@ -1,0 +1,69 @@
+.wrapper {
+  padding-top: 1.5rem;
+  padding-bottom: 3.3rem;
+}
+.title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.25rem;
+}
+
+.title button {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 39%;
+}
+
+.title button span {
+  font-size: 1.8rem;
+}
+
+.compare {
+  display: flex;
+  justify-content: center;
+  padding: 0.625rem 0;
+  border-radius: var(--radius);
+  background-color: var(--cream);
+  border: 0.125rem solid var(--blue);
+  margin-bottom: 2rem;
+}
+
+.circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 100%;
+}
+
+.first {
+  border-right: 0.125rem solid var(--heavenly);
+}
+
+.first .circle {
+  background-color: var(--blue);
+}
+
+.last .circle {
+  background-color: var(--marine);
+}
+
+.first,
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.month {
+  margin-left: 0.7rem;
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--blue);
+}
+
+.year {
+  font-size: 0.625rem;
+  align-self: flex-end;
+  color: var(--heavenly);
+}

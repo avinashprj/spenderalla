@@ -1,0 +1,16 @@
+.btn.add {
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  background: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn.add .material-icons {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 1.8rem;
+}

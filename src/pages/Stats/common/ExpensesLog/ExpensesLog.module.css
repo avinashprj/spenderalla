@@ -1,0 +1,36 @@
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+}
+
+.filter {
+  position: relative;
+  padding: 0.25rem 0.8rem;
+  background-color: var(--white);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+}
+
+.filter::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -0.2rem;
+  top: -0.2rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--heavenly);
+  box-shadow: 0 2px 4px 1px rgba(33, 79, 241, 0.25);
+}
+
+.nofilter {
+  position: relative;
+  padding: 0.25rem 0.8rem;
+  background-color: var(--white);
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+}

@@ -1,0 +1,32 @@
+.input {
+  border: none;
+  border-bottom: 0.125px solid var(--heavenly);
+  background-color: transparent;
+  color: var(--heavenly);
+  padding: 0.625rem 0;
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 0.5rem;
+  width: 100%;
+}
+
+.input[type="password"] {
+  letter-spacing: 0.7rem;
+}
+
+.input:focus {
+  outline: none;
+  color: var(--blue);
+  border-bottom: 0.125rem solid var(--blue);
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  padding-top: 0.3rem;
+  color: var(--error);
+}
+
+.error > span {
+  margin-right: 0.3rem;
+}

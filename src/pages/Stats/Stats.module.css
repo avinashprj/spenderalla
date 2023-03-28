@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.25rem;
+  margin-bottom: 1.4rem;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.buttons button {
+  width: 3rem;
+}
+
+.buttons span {
+  font-size: 1.7rem;
+  color: var(--heavenly);
+}
+
+.main {
+  padding-top: 1.25rem;
+  padding-bottom: 4rem;
+}

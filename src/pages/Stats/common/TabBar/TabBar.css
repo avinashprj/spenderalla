@@ -1,0 +1,62 @@
+.tab-bar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  font: var(--bold-14);
+  background-color: var(--white);
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.tab-bar input[type="checkbox"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.tab-bar .bg-action {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: var(--blue);
+  border-radius: 10px;
+  transform: translateX(0);
+  transition: transform ease-in-out 0.5s;
+}
+
+input[type="checkbox"]:checked + .bg-action {
+  transition: transform ease-in-out 0.5s;
+  transform: translateX(100%);
+}
+
+.tab-bar .tab {
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tab.first {
+  color: var(--white);
+  z-index: 3;
+  transition: color ease-in-out 0.5s;
+}
+
+.tab-bar input[type="checkbox"]:checked ~ .first {
+  color: var(--heavenly);
+  cursor: pointer;
+  transition: color ease-in-out 0.5s;
+}
+
+.tab.last {
+  color: var(--heavenly);
+  z-index: 3;
+  cursor: pointer;
+  transition: color ease-in-out 0.5s;
+}
+
+.tab-bar input[type="checkbox"]:checked ~ .last {
+  color: var(--white);
+  cursor: default;
+  transition: color ease-in-out 0.5s;
+}

@@ -1,0 +1,117 @@
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.year, .month {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.year {
+  height: 25%;
+}
+
+.month {
+  height: 50%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.month1, .month2 {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0rem;
+}
+
+.year1, .year2 {
+  max-height: 100%;
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0rem;
+}
+
+.create {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* unseelct */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none; 
+}
+
+.swiper-slide .create {
+  color: var(--heavenly-transparent);
+  font-size: 1.05rem;
+  transition: all 0.2s ease;
+}
+
+.swiper-slide.swiper-slide-active .create {
+  color: var(--blue);
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+
+}
+
+.swiper-slide.swiper-slide-next > .create {
+  color: var(--heavenly);
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+
+}
+
+.swiper-slide.swiper-slide-prev > .create {
+  color: var(--heavenly);
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.month1 .swiper-slide.swiper-slide-active > .create::before,
+.month2 .swiper-slide.swiper-slide-active > .create::before  {
+  content: '';
+  display: block;
+  position: relative;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+
+}
+
+.month1 .swiper-slide.swiper-slide-active > .create::before {
+  background: blue;
+  transition: all 0.2s ease;
+
+}
+
+.month2 .swiper-slide.swiper-slide-active > .create::before {
+  background: #3bd0ff;
+  transition: all 0.2s ease;
+
+}

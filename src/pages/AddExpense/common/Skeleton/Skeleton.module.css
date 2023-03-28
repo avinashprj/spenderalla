@@ -1,0 +1,132 @@
+:root {
+  --animation-rgba: rgba(130, 130, 130, 0.2);
+  --animation-wk-rgba: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(8%, rgba(130, 130, 130, 0.2)),
+    color-stop(18%, rgba(130, 130, 130, 0.3)),
+    color-stop(33%, rgba(130, 130, 130, 0.2))
+  );
+  --animation-gradient: linear-gradient(
+    to right,
+    rgba(130, 130, 130, 0.2) 8%,
+    rgba(130, 130, 130, 0.3) 18%,
+    rgba(130, 130, 130, 0.2) 33%
+  );
+}
+
+/* VAR */
+
+.containerLeft {
+  flex: 2;
+}
+
+.square {
+  aspect-ratio: 800/320;
+  border-radius: 5px;
+  background: var(--animation-rgba);
+  background: var(--animation-wk-rgba);
+  background: var(--animation-gradient);
+  background-size: 800px 100px;
+  animation: wave-squares 2s infinite ease-out;
+}
+.line {
+  height: 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  background: var(--animation-rgba);
+  background: var(--animation-wk-rgba);
+  background: var(--animation-gradient);
+  background-size: 800px 100px;
+  animation: wave-lines 2s infinite ease-out;
+}
+
+.one {
+  width: 12rem;
+  height: 2.3rem;
+}
+
+.two {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.padding {
+  padding: 3rem 0 2.7rem;
+}
+
+.three {
+  margin-top: 2rem;
+  width: 9rem;
+  height: 1.8rem;
+}
+
+.four {
+  width: 100%;
+  height: 3rem;
+}
+
+.five {
+  width: 7rem;
+  height: 2.1rem;
+}
+
+.six {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
+.padding2 {
+  padding: 2rem 0 2rem;
+}
+
+.hz {
+  margin-top: 2rem;
+}
+
+.seven {
+  width: 100%;
+  height: 8rem;
+}
+
+.bg {
+  background-color: #fff;
+  margin: 0 -2rem ;
+  padding: 0 2rem;
+}
+
+.fg {
+  background-color: #fafafa;
+  margin: -0.5rem -2rem 0;
+  padding: 0.5rem 2rem 0;
+}
+
+.container .line:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes wave-lines {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+@keyframes wave-squares {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}

@@ -1,0 +1,50 @@
+.day-of-the-week {
+  margin-bottom: 1rem;
+}
+
+.one-day-expenses {
+  margin-bottom: 20px;
+}
+
+.list-expenses .day-of-the-week {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 0.125rem solid var(--heavenly); 
+  border-radius: var(--radius);
+}
+
+.day-of-the-week .number {
+  margin-right: 1rem;
+  color: var(--blue);
+}
+
+.day-of-the-week .date {
+  margin-right: 0.75rem;
+  color: var(--heavenly);
+}
+
+.list-expenses .list {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.category-and-price {
+  padding: 0.625rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-xs);
+}
+
+.category-icon {
+  padding: 0.625rem;
+  color: var(--blue);
+  font-size: 1.5rem;
+}
+
+.category-and-price .price {
+  color: var(--blue);
+}

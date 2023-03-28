@@ -1,0 +1,33 @@
+.wrapper {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.selector {
+  display: flex;
+  padding-top: 1.5rem;
+  margin-bottom: 5vh;
+}
+
+.selector a {
+  font-size: 1.625rem;
+  color: var(--heavenly);
+  font-weight: 800;
+  width: 40%;
+}
+
+.form h4 {
+  color: var(--heavenly);
+}
+
+.form > label {
+  display: block;
+  padding-top: 3rem;
+}
+
+.but {
+  padding-top: 5rem;
+}
+

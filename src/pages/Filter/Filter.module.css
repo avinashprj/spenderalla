@@ -1,0 +1,39 @@
+.wrapper {
+  /* height: 80vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+  padding-bottom: 6rem;
+}
+
+.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 0.3rem 2rem;
+}
+
+.wrapper header > span {
+  font-size: 1.25rem;
+}
+
+.range {
+  padding: 0 0.5rem 5rem;
+}
+
+.range > span {
+  font-size: 1rem;
+  font-weight: 800;
+} 
+
+.range > span {
+  display: block;
+  margin-top: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  margin-top: auto;
+  column-gap: 1.3rem;
+}

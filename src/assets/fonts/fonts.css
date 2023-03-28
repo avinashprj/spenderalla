@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Regular'), local('Muli-Regular'), url('Muliregular.woff2') format('woff2'), url('Muliregular.woff') format('woff'), url('Muliregular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli ExtraBold'), local('Muli-ExtraBold'), url('Muliextrabold.woff2') format('woff2'), url('Muliextrabold.woff') format('woff'), url('Muliextrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: local('Muli Bold'), local('Muli-Bold'), url('Mulibold.woff2') format('woff2'), url('Mulibold.woff') format('woff'), url('Mulibold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

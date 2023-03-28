@@ -1,0 +1,31 @@
+.chart-container-horizontal {
+  position: relative;
+  padding: 1.5rem 0 0.6rem 0;
+}
+
+.circle {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 100%;
+}
+
+.one,
+.two {
+  display: flex;
+  align-items: center;
+}
+
+.one .text,
+.two .text {
+  margin-right: auto;
+  margin-left: 1.25rem;
+  color: var(--black);
+}
+
+.one .circle {
+  background-color: var(--marine);
+}
+
+.two .circle {
+  background-color: var(--blue);
+}

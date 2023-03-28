@@ -1,0 +1,30 @@
+.btn_zoom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0.325rem 0.25rem 0.87rem;
+  color: var(--heavenly);
+  background-color: transparent;
+  border: 0.125rem solid var(--heavenly);
+  border-radius: var(--radius);
+}
+
+.btn_zoom:active {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.btn_zoom h4 {
+  margin-right: 0.75rem;
+}
+
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.btn_icon {
+  font-size: 1.75rem;
+}
+

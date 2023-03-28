@@ -1,0 +1,15 @@
+.wrapperChart {
+  padding: 1.25rem 1.25rem 2rem;
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: var(--shadow-xs);
+}
+
+.swiper {
+  margin-top: 0.5rem;  
+  margin-bottom: 0.5rem;  
+}
+
+.mb {
+  margin-bottom: 1rem;
+}

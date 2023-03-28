@@ -1,0 +1,59 @@
+html {
+  font-size: 16px;
+}
+
+*,
+input,
+button,
+label {
+  font-family: "Muli";
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.625rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+body {
+  background-color: var(--cream);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+a:visited {
+  color: var(--blue);
+}
+
+a {
+  color: var(--blue);
+}

@@ -1,0 +1,52 @@
+.btn {
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.primary_blue {
+  padding: 1rem 0;
+  font-size: 1.12rem;
+  width: 100%;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.wa {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 1rem 1.5rem;
+  width: auto;
+}
+
+.primary_heavenly {
+  padding: 1rem 0;
+  font-size: 1.12rem;
+  font-size: 1rem;
+  color: var(--blue);
+  background-color: var(--heavenly-transparent);
+}
+
+.widthauto {
+  width: auto;
+  padding: 1rem 1.2rem !important;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.secondary_white {
+  padding: 0.325rem 0.875rem;
+  font-size:  0.875rem;
+  color: var(--white);
+  width: auto;
+  border: 0.0625rem solid var(--white);
+}
+
+.secondary_blue {
+  padding: 0.6rem 2rem;
+  font-size: 0.875rem;
+  width: auto;
+  color: var(--blue);
+  border: 0.125rem solid var(--heavenly);
+}

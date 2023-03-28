@@ -1,0 +1,32 @@
+.wrapper {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper span {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.selector a {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: var(--blue);
+  width: 40%;
+}
+.form {
+  width: 80%;
+}
+.form h4 {
+  color: var(--heavenly);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+}
+
+.wrapper span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2vh;
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+
+.input {
+  border: none;
+  border-bottom: 0.125px solid var(--heavenly);
+  background-color: transparent;
+  color: var(--heavenly);
+  padding: 0.625rem 0;
+  font-size: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 2.75rem;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  color: var(--blue);
+  border-bottom: 0.125rem solid var(--blue);
+}
+
+.input[type="number"]::placeholder { 
+  color: var(--heavenly); 
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  padding-top: 0.3rem;
+  color: var(--error);
+}
+
+.error > span {
+  margin-right: 0.3rem;
+}

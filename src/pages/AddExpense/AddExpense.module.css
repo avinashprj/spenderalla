@@ -1,0 +1,94 @@
+.container {
+  padding-bottom: 4.5rem;
+}
+
+.wrapper {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
+.date {
+  margin-top: 2.5rem;
+  padding-bottom: 1.8rem;
+}
+
+.main {
+  padding-bottom: 1rem;
+}
+
+.blue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.3rem 1.2rem 2.8rem;
+  background-color: var(--blue);
+}
+
+.blue h1 {
+  color: var(--white);
+}
+
+.white {
+  padding: 2.7rem 1.2rem 0;
+  background-color: var(--white);
+}
+
+.white span {
+  display: block;
+  font-size: 1.25rem;
+}
+
+.white button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  color: var(--blue);
+  margin-top: 2.1rem;
+  padding-bottom: 2.1rem;
+}
+
+.category {
+  margin-top: 4rem;
+}
+
+.category > span {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem; 
+  padding: 1.25rem 1rem;
+  background-color: var(--white);
+  border: 0.125rem solid var(--heavenly);
+  border-radius: var(--radius);
+}
+
+.photo {
+  margin-top: 4rem;
+}
+
+.photo > span {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding-bottom: 1.5rem;
+}
+
+.textarea {
+  margin-top: 4rem;
+}
+
+.textarea > span {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
+}

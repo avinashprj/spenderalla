@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:not(input, textarea) {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+input {
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+#root {
+  width: inherit;
+  height: inherit;
+}

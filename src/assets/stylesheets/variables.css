@@ -1,0 +1,33 @@
+:root {
+  /*##########
+  #  colors  #
+  ##########*/
+
+  --green: #2ee554;
+  --blue: #214ff1;
+  --blue-transparent: rgb(33, 79, 241, 0.8);
+  --heavenly: #9ba5f8;
+  --heavenly-transparent: rgb(155, 165, 248, 0.2);
+  --white: #ffffff;
+  --cream: #f8f8f8;
+  --black: #383a42;
+  --brown: #7c8999;
+  --marine: #3bd0ff;
+  --error: #CC0036;
+
+  /*##########
+  #  shadow  #
+  ##########*/
+
+  --shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.20);
+  --shadow-xs: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  --shadow-modal: 0 0 8px 4px rgba(0, 0, 0, 0.15);
+  --shadow-navbar: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+
+
+  /*##########
+  #  radius  #
+  ##########*/
+
+  --radius: 0.625rem;
+}

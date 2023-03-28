@@ -1,0 +1,78 @@
+.navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--cream);
+  padding: 0.8rem 0;
+}
+
+.navbar .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar .item .link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .item .icon {
+  color: var(--blue);
+  font-size: 1.7rem;
+}
+
+.navbar .item .title.active {
+  color: #214ff1;
+}
+
+.navbar .material-icons.active {
+  color: #214ff1;
+}
+
+.zagl {
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 50%;
+  background:  rgba(130, 130, 130, 0.2);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(8%, rgba(130, 130, 130, 0.2)),
+    color-stop(18%, rgba(130, 130, 130, 0.3)),
+    color-stop(33%, rgba(130, 130, 130, 0.2))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(130, 130, 130, 0.2) 8%,
+    rgba(130, 130, 130, 0.3) 18%,
+    rgba(130, 130, 130, 0.2) 33%
+  );
+  background-size: 800px 100px;
+  animation: wave-lines 2s infinite ease-out;
+}
+
+
+@keyframes wave-lines {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+@keyframes wave-squares {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}

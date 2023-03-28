@@ -1,0 +1,124 @@
+:root {
+  --animation-rgba: rgba(130, 130, 130, 0.2);
+  --animation-wk-rgba: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(8%, rgba(130, 130, 130, 0.2)),
+    color-stop(18%, rgba(130, 130, 130, 0.3)),
+    color-stop(33%, rgba(130, 130, 130, 0.2))
+  );
+  --animation-gradient: linear-gradient(
+    to right,
+    rgba(130, 130, 130, 0.2) 8%,
+    rgba(130, 130, 130, 0.3) 18%,
+    rgba(130, 130, 130, 0.2) 33%
+  );
+}
+
+/* VAR */
+.skeleton {
+  margin-top: 10px;
+}
+.container {
+  padding: 20px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.containerLeft {
+  flex: 2;
+}
+
+.auto {
+  margin: auto;
+}
+
+.square {
+  aspect-ratio: 800/320;
+  border-radius: 5px;
+  background: var(--animation-rgba);
+  background: var(--animation-wk-rgba);
+  background: var(--animation-gradient);
+  background-size: 800px 100px;
+  animation: wave-squares 2s infinite ease-out;
+}
+.line {
+  height: 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  background: var(--animation-rgba);
+  background: var(--animation-wk-rgba);
+  background: var(--animation-gradient);
+  background-size: 800px 100px;
+  animation: wave-lines 2s infinite ease-out;
+}
+.flex {
+  display: flex;
+}
+.tangle {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--animation-rgba);
+  background: var(--animation-wk-rgba);
+  background: var(--animation-gradient);
+  background-size: 800px 100px;
+  animation: wave-lines 2s infinite ease-out;
+}
+
+.container .line:last-child {
+  margin-bottom: 0;
+}
+.h40 {
+  height: 40px !important;
+}
+.h45 {
+  height: 45px !important;
+}
+.h30 {
+  height: 30px !important;
+}
+.w15 {
+  width: 25% !important;
+}
+.w35 {
+  width: 35% !important;
+}
+.w100 {
+  width: 100%;
+}
+.m10 {
+  margin-bottom: 10px !important;
+}
+.m15 {
+  margin-bottom: 15px !important;
+}
+.m22 {
+  margin-bottom: 22px !important;
+}
+.m25 {
+  margin-bottom: 25px !important;
+}
+
+@keyframes wave-lines {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+@keyframes wave-squares {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}

@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 3.3rem);
+}
+.head {
+  padding-bottom: 5rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.notfound {
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  color: var(--blue);
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  display: block;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.desc {
+  font-size: 1rem;
+  color: var(--brown);
+  text-align: center;
+}
+
+.btn {
+  /* margin-top: 3rem; */
+}

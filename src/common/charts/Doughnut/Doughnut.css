@@ -1,0 +1,29 @@
+.doughnut h5,
+.expenses {
+  color: #214ff1;
+  text-align: center;
+  font-size: 4.13vw;
+}
+
+.doughnut .chart-container {
+  position: relative;
+}
+
+.doughnut .chart-container h5 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.doughnut .expenses {
+  padding: 2rem 0;
+}
+
+.doughnut h5 .limit {
+  color: var(--heavenly);
+}
+
+.doughnut h5 .slash {
+  padding: 0 1rem;
+}

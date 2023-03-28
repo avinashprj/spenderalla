@@ -1,0 +1,84 @@
+.wrapper header {
+  margin-right: -1.25rem;
+  margin-left: -1.25rem;
+  margin-bottom: 1.8rem;
+  padding-top: 2.2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: var(--blue);
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.3rem;
+}
+
+.page h1 {
+  color: var(--white);
+}
+
+.email {
+  color: var(--white);
+}
+
+.email > h4 {
+  margin-bottom: 1.25rem;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+main .name {
+  font-size: 1.12rem;
+}
+
+.chevron {
+  font-size: 1.7rem;
+  color: var(--heavenly);
+}
+
+.password,
+.switch {
+  margin-bottom: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.currency .circle {
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.625rem;
+  border-radius: 100%;
+  background-color: var(--white);
+}
+
+.currency .name {
+  margin-bottom: 1rem;
+}
+
+.circle span {
+  color: var(--blue);
+  font-size: 1.12rem;
+}
+
+.currency button .text {
+  margin-right: auto;
+  font-size: 1rem;
+  color: var(--blue);
+}

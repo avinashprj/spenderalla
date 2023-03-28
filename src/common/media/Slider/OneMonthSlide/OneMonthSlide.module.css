@@ -1,0 +1,10 @@
+.centerButton {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  color: var(--heavenly);
+  text-align: center;
+  margin-top: 1.5rem;
+}

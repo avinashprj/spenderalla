@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 1.5rem 0.5rem 3.3rem;
+}
+
+.wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.date h2 {
+  font-weight: 800;
+}
+
+.twoLevel {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--blue);
+}

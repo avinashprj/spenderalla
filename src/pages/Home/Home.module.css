@@ -1,0 +1,40 @@
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add h5 {
+  margin-top: 1.12rem;
+}
+
+.wrapper {
+  margin-bottom: 4rem;
+}
+
+.wrapper header {
+  margin-bottom: 3rem;
+}
+
+.seeAll {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.2rem;
+}
+
+.seeAll div {
+  font-size: 1.12rem;
+}
+
+.seeAll a {
+  color: var(--blue);
+}
+
+.header {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
+.main {
+  padding-bottom: 4.8rem;
+}
